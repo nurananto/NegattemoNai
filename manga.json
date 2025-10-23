@@ -1,0 +1,106 @@
+{
+  "manga": {
+    "title": "Negatte mo Nai Tsuihou Go kara no Slow Life? ~Intai Shita Hazu ga Nariyuki de Bishoujo Gal no Shishou ni Nattara Naze ka Mechakucha Natsukareta~",
+    "alternativeTitle": "願ってもない追放後からのスローライフ？～引退したはずが成り行きで美少女ギャルの師匠になったらなぜかめちゃくちゃ懐かれた～",
+    "cover": "https://raw.githubusercontent.com/nurananto/NuranantoScanlation/refs/heads/main/covers/negatte-mo-nai-tsuihou-go-kara-no-slow-life-intai--dee7c542-0efd-4e72-8df1-5d71a2b08c6d.jpg",
+    "description": "Reito Harukaze, yang telah naik hingga ranking tertinggi adventurer, telah pensiun. Saat ia berniat untuk hidup santai dan pensiun, suatu hari seorang gadis gal cantik bernama Karen Hiiragi muncul di hadapannya.'Hey, onii-san, traktir makan dong!'Mendengar bahwa Karen kesulitan uang, Reito memutuskan untuk memberinya pelatihan dasar tentang cara menaklukkan dungeon.'Berkatmu, aku berhasil menyelesaikan dungeon pertamaku! Sensei!'Padahal sebenarnya ia ingin pensiun dan menikmati hidup santai…",
+    "author": "Sugar Spoon",
+    "artist": "Yamigo",
+    "genre": [
+      "Adventurer",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Romance",
+      "Gyaru",
+      "Shounen"
+    ],
+    "status": "Ongoing",
+    "views": 0,
+    "links": {
+      "mangadex": "https://mangadex.org/title/748d2aab-cea8-4ffb-89b3-e716872cb027/negatte-mo-nai-tsuihou-go-kara-no-slow-life-intai-shita-hazu-ga-nariyuki-de-bishoujo-gal-no-shishou",
+      "raw": "https://comic-walker.com/detail/KC_006563_S"
+    },
+    "repoUrl": "https://raw.githubusercontent.com/nurananto/NegattemoNai/main/",
+    "imagePrefix": "Image",
+    "imageFormat": "jpg",
+    "lockedChapters": [
+      "8"
+    ]
+  },
+  "chapters": {
+    "1": {
+      "title": "Chapter 1",
+      "folder": "1",
+      "pages": 34,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    },
+    "3": {
+      "title": "Chapter 3",
+      "folder": "3",
+      "pages": 32,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    },
+    "4": {
+      "title": "Chapter 4",
+      "folder": "4",
+      "pages": 30,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    },
+    "5": {
+      "title": "Chapter 5",
+      "folder": "5",
+      "pages": 32,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    },
+    "6": {
+      "title": "Chapter 6",
+      "folder": "6",
+      "pages": 30,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    },
+    "7": {
+      "title": "Chapter 7",
+      "folder": "7",
+      "pages": 32,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    },
+    "8": {
+      "title": "Chapter 8",
+      "folder": "8",
+      "pages": 0,
+      "views": 0,
+      "uploadDate": null,
+      "locked": true
+    },
+    "2.1": {
+      "title": "Chapter 2.1",
+      "folder": "2.1",
+      "pages": 15,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    },
+    "2.2": {
+      "title": "Chapter 2.2",
+      "folder": "2.2",
+      "pages": 16,
+      "views": 0,
+      "uploadDate": "2025-10-23",
+      "locked": false
+    }
+  },
+  "lastUpdated": "2025-10-23T18:08:03.016Z"
+}
