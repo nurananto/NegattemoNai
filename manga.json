@@ -16,7 +16,7 @@
       "Shounen"
     ],
     "status": "Ongoing",
-    "views": 25,
+    "views": 219,
     "links": {
       "mangadex": "https://mangadex.org/title/748d2aab-cea8-4ffb-89b3-e716872cb027/negatte-mo-nai-tsuihou-go-kara-no-slow-life-intai-shita-hazu-ga-nariyuki-de-bishoujo-gal-no-shishou",
       "raw": "https://comic-walker.com/detail/KC_006563_S"
@@ -33,7 +33,7 @@
       "title": "Chapter 1",
       "chapter": 1,
       "folder": "1",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 34,
       "pages": 34,
       "locked": false,
@@ -43,7 +43,7 @@
       "title": "Chapter 3",
       "chapter": 3,
       "folder": "3",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 32,
       "pages": 32,
       "locked": false,
@@ -53,7 +53,7 @@
       "title": "Chapter 4",
       "chapter": 4,
       "folder": "4",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 30,
       "pages": 30,
       "locked": false,
@@ -63,7 +63,7 @@
       "title": "Chapter 5",
       "chapter": 5,
       "folder": "5",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 32,
       "pages": 32,
       "locked": false,
@@ -73,7 +73,7 @@
       "title": "Chapter 6",
       "chapter": 6,
       "folder": "6",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 30,
       "pages": 30,
       "locked": false,
@@ -83,37 +83,37 @@
       "title": "Chapter 7",
       "chapter": 7,
       "folder": "7",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 0
+      "views": 16
     },
     "8": {
       "title": "Chapter 8",
       "chapter": 8,
       "folder": "8",
-      "uploadDate": "2025-10-30",
+      "uploadDate": "2025-10-30T15:23:10.000Z",
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 15
+      "views": 165
     },
     "9": {
       "title": "Chapter 9",
       "chapter": 9,
       "folder": "9",
-      "uploadDate": "2025-10-30",
+      "uploadDate": "2025-10-31T08:06:58.392Z",
       "totalPages": 0,
       "pages": 0,
       "locked": true,
-      "views": 0
+      "views": 33
     },
     "2.1": {
       "title": "Chapter 2.1",
       "chapter": 2.1,
       "folder": "2.1",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 15,
       "pages": 15,
       "locked": false,
@@ -123,13 +123,13 @@
       "title": "Chapter 2.2",
       "chapter": 2.2,
       "folder": "2.2",
-      "uploadDate": "2025-09-30",
+      "uploadDate": "2025-10-16T04:35:15.000Z",
       "totalPages": 16,
       "pages": 16,
       "locked": false,
       "views": 0
     }
   },
-  "lastUpdated": "2025-10-30T08:24:15.448Z",
+  "lastUpdated": "2025-10-31T08:06:58.533Z",
   "lastChapterUpdate": "2025-10-30"
 }
