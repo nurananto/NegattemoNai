@@ -103,11 +103,11 @@
       "title": "Chapter 9",
       "chapter": 9,
       "folder": "9",
-      "uploadDate": "2025-11-01T16:09:05+07:00",
+      "uploadDate": "2025-11-01T17:45:51+07:00",
       "totalPages": 0,
       "pages": 0,
       "locked": true,
-      "views": 73
+      "views": 85
     },
     "2.1": {
       "title": "Chapter 2.1",
@@ -130,6 +130,6 @@
       "views": 0
     }
   },
-  "lastUpdated": "2025-11-01T16:09:05+07:00",
+  "lastUpdated": "2025-11-01T17:45:52+07:00",
   "lastChapterUpdate": "2025-10-30T15:23:10+07:00"
 }
