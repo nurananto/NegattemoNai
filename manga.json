@@ -16,7 +16,7 @@
       "Shounen"
     ],
     "status": "Ongoing",
-    "views": 379,
+    "views": 454,
     "links": {
       "mangadex": "https://mangadex.org/title/748d2aab-cea8-4ffb-89b3-e716872cb027/negatte-mo-nai-tsuihou-go-kara-no-slow-life-intai-shita-hazu-ga-nariyuki-de-bishoujo-gal-no-shishou",
       "raw": "https://comic-walker.com/detail/KC_006563_S"
@@ -77,7 +77,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 0
+      "views": 10
     },
     "7": {
       "title": "Chapter 7",
@@ -87,7 +87,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 16
+      "views": 31
     },
     "8": {
       "title": "Chapter 8",
@@ -97,17 +97,17 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 254
+      "views": 301
     },
     "9": {
       "title": "Chapter 9",
       "chapter": 9,
       "folder": "9",
-      "uploadDate": "2025-11-01T17:45:51+07:00",
+      "uploadDate": "2025-11-02T09:19:34+07:00",
       "totalPages": 0,
       "pages": 0,
       "locked": true,
-      "views": 85
+      "views": 102
     },
     "2.1": {
       "title": "Chapter 2.1",
@@ -130,6 +130,6 @@
       "views": 0
     }
   },
-  "lastUpdated": "2025-11-01T17:45:52+07:00",
+  "lastUpdated": "2025-11-02T09:19:34+07:00",
   "lastChapterUpdate": "2025-10-30T15:23:10+07:00"
 }
