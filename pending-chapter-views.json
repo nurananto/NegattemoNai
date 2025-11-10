@@ -21,19 +21,19 @@
       "lastUpdate": "2025-11-08T09:01:35+07:00"
     },
     "6": {
-      "pendingViews": 1,
+      "pendingViews": 0,
       "lastIncrement": "2025-11-09T20:26:20.938Z",
-      "lastUpdate": "2025-11-08T09:01:35+07:00"
+      "lastUpdate": "2025-11-10T09:19:44+07:00"
     },
     "7": {
-      "pendingViews": 1,
+      "pendingViews": 0,
       "lastIncrement": "2025-11-09T20:28:28.811Z",
-      "lastUpdate": "2025-11-09T09:18:09+07:00"
+      "lastUpdate": "2025-11-10T09:19:44+07:00"
     },
     "8": {
-      "pendingViews": 9,
+      "pendingViews": 0,
       "lastIncrement": "2025-11-09T20:22:39.491Z",
-      "lastUpdate": "2025-11-09T09:18:09+07:00"
+      "lastUpdate": "2025-11-10T09:19:44+07:00"
     },
     "9": {
       "pendingViews": 3,
@@ -51,5 +51,5 @@
       "lastUpdate": "2025-11-08T09:01:35+07:00"
     }
   },
-  "lastUpdated": "2025-11-09T09:18:09+07:00"
+  "lastUpdated": "2025-11-10T09:19:44+07:00"
 }
