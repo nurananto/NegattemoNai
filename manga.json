@@ -2,7 +2,7 @@
   "manga": {
     "title": "Negatte mo Nai Tsuihou Go kara no Slow Life? ~Intai Shita Hazu ga Nariyuki de Bishoujo Gal no Shishou ni Nattara Naze ka Mechakucha Natsukareta~",
     "alternativeTitle": "願ってもない追放後からのスローライフ？～引退したはずが成り行きで美少女ギャルの師匠になったらなぜかめちゃくちゃ懐かれた～",
-    "cover": "https://raw.githubusercontent.com/nurananto/NuranantoScanlation/refs/heads/main/covers/negatte-dee7c542-0efd-4e72-8df1-5d71a2b08c6d.jpg",
+    "cover": "https://raw.githubusercontent.com/nurananto/NuranantoScanlation/refs/heads/main/covers/negatte-dee7c542-0efd-4e72-8df1-5d71a2b08c6d.webp",
     "description": "Reito Harukaze, yang telah naik hingga ranking tertinggi adventurer, telah pensiun. Saat ia berniat untuk hidup santai dan pensiun, suatu hari seorang gadis gal cantik bernama Karen Hiiragi muncul di hadapannya.'Hey, onii-san, traktir makan dong!'Mendengar bahwa Karen kesulitan uang, Reito memutuskan untuk memberinya pelatihan dasar tentang cara menaklukkan dungeon.'Berkatmu, aku berhasil menyelesaikan dungeon pertamaku! Sensei!'Padahal sebenarnya ia ingin pensiun dan menikmati hidup santai…",
     "author": "Sugar Spoon",
     "artist": "Yamigo",
@@ -16,7 +16,7 @@
       "Shounen"
     ],
     "status": "Ongoing",
-    "views": 818,
+    "views": 829,
     "links": {
       "mangadex": "https://mangadex.org/title/748d2aab-cea8-4ffb-89b3-e716872cb027/negatte-mo-nai-tsuihou-go-kara-no-slow-life-intai-shita-hazu-ga-nariyuki-de-bishoujo-gal-no-shishou",
       "raw": "https://comic-walker.com/detail/KC_006563_S"
@@ -75,7 +75,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 25
+      "views": 27
     },
     "7": {
       "title": "Chapter 7",
@@ -95,7 +95,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 465
+      "views": 470
     },
     "2.1": {
       "title": "Chapter 2.1",
@@ -118,6 +118,6 @@
       "views": 21
     }
   },
-  "lastUpdated": "2025-11-18T09:14:35+07:00",
+  "lastUpdated": "2025-11-19T00:40:53+07:00",
   "lastChapterUpdate": "2025-10-30T15:23:10+07:00"
 }
