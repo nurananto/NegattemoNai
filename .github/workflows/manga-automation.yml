@@ -1,0 +1,121 @@
+name: 🔄 Manga Automation
+
+on:
+  push:
+    paths:
+      - '**/manifest.json'
+      - 'manga-config.json'
+  workflow_dispatch:
+
+jobs:
+  update-manga:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔧 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: 📚 Generate manga.json
+        run: node manga-automation.js generate
+
+      - name: 📄 Sync chapters
+        run: node manga-automation.js sync
+
+      - name: 📊 Update manga views
+        run: node manga-automation.js update-views
+
+      - name: 📖 Update chapter views
+        run: node manga-automation.js update-chapters
+
+      - name: 🔍 Check for changes
+        id: check_changes
+        run: |
+          # ✅ FIX: Force add files even if untracked
+          git add -A manga.json pending-views.json pending-chapter-views.json
+          
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected!"
+            git status --short
+          fi
+
+      - name: 💾 Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Commit message with timestamp
+          TIMESTAMP=$(TZ='Asia/Jakarta' date '+%Y-%m-%d %H:%M:%S WIB')
+          git commit -m "📊 Auto-update manga data - $TIMESTAMP [skip ci]"
+          
+          git push
+
+      - name: 🔄 Check structural changes
+        id: structural_check
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          # Check apakah manga.json baru pertama kali dibuat
+          if git diff HEAD~1 HEAD --name-status | grep -q "^A.*manga\.json$"; then
+            echo "has_structural_changes=true" >> $GITHUB_OUTPUT
+            echo "🎉 First-time generation detected! (manga.json created)"
+            echo "is_first_time=true" >> $GITHUB_OUTPUT
+          # Check chapters & config (BUKAN views)
+          elif git diff HEAD~1 HEAD --name-only | grep -E '(manifest\.json|manga-config\.json|chapters/)'; then
+            echo "has_structural_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Structural changes detected (new chapter/config)"
+            echo "is_first_time=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_structural_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No structural changes (only views updated)"
+            echo "is_first_time=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 🚀 Trigger website rebuild
+        if: |
+          steps.check_changes.outputs.has_changes == 'true' && 
+          steps.structural_check.outputs.has_structural_changes == 'true'
+        run: |
+          # Tentukan message berdasarkan tipe perubahan
+          if [ "${{ steps.structural_check.outputs.is_first_time }}" == "true" ]; then
+            MESSAGE="First-time manga setup for YuumeiVTuber"
+          else
+            MESSAGE="Manga updated - YuumeiVTuber"
+          fi
+          
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.MANGA_WEBHOOK_TOKEN }}" \
+            https://api.github.com/repos/nurananto/nuranantoscans/dispatches \
+            -d '{"event_type":"manga-updated","client_payload":{"manga":"YuumeiVTuber","timestamp":"'$(date -u +%Y-%m-%dT%H:%M:%SZ)'","message":"'"$MESSAGE"'"}}'
+          
+          if [ "${{ steps.structural_check.outputs.is_first_time }}" == "true" ]; then
+            echo "🎉 Website rebuild triggered! (First-time generation)"
+          else
+            echo "✅ Website rebuild triggered! (Content update)"
+          fi
+
+      - name: ℹ️ Skip website trigger
+        if: |
+          steps.check_changes.outputs.has_changes != 'true' ||
+          steps.structural_check.outputs.has_structural_changes != 'true'
+        run: |
+          echo "⏭️ Skipping website trigger"
+          echo "✅ Website will only be triggered for:"
+          echo "   - First-time manga.json creation (setup)"
+          echo "   - New chapters (manifest.json)"
+          echo "   - Config changes (manga-config.json)"
+          echo "   - Chapter content changes"
