@@ -16,7 +16,7 @@
       "Shounen"
     ],
     "status": "Ongoing",
-    "views": 295,
+    "views": 385,
     "links": {
       "mangadex": "https://mangadex.org/title/748d2aab-cea8-4ffb-89b3-e716872cb027/negatte-mo-nai-tsuihou-go-kara-no-slow-life-intai-shita-hazu-ga-nariyuki-de-bishoujo-gal-no-shishou",
       "raw": "https://comic-walker.com/detail/KC_006563_S"
@@ -35,7 +35,7 @@
       "totalPages": 34,
       "pages": 34,
       "locked": false,
-      "views": 27
+      "views": 34
     },
     "3": {
       "title": "Chapter 3",
@@ -45,7 +45,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 4
+      "views": 8
     },
     "4": {
       "title": "Chapter 4",
@@ -55,7 +55,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 3
+      "views": 6
     },
     "5": {
       "title": "Chapter 5",
@@ -65,7 +65,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 4
+      "views": 7
     },
     "6": {
       "title": "Chapter 6",
@@ -75,7 +75,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 6
+      "views": 9
     },
     "7": {
       "title": "Chapter 7",
@@ -85,7 +85,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 27
+      "views": 32
     },
     "8": {
       "title": "Chapter 8",
@@ -95,7 +95,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 150
+      "views": 165
     },
     "9": {
       "title": "Chapter 9",
@@ -105,7 +105,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 0
+      "views": 91
     },
     "2.1": {
       "title": "Chapter 2.1",
@@ -115,7 +115,7 @@
       "totalPages": 15,
       "pages": 15,
       "locked": false,
-      "views": 5
+      "views": 10
     },
     "2.2": {
       "title": "Chapter 2.2",
@@ -125,9 +125,9 @@
       "totalPages": 16,
       "pages": 16,
       "locked": false,
-      "views": 4
+      "views": 7
     }
   },
-  "lastUpdated": "2025-11-29T21:01:27+07:00",
+  "lastUpdated": "2025-11-30T00:11:51+07:00",
   "lastChapterUpdate": "2025-11-29T20:59:45+07:00"
 }
