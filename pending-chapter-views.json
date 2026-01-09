@@ -1,9 +1,9 @@
 {
   "chapters": {
     "1": {
-      "pendingViews": 3,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-09T08:57:18.455Z",
-      "lastUpdate": "2026-01-07T00:18:28+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "3": {
       "pendingViews": 0,
@@ -11,39 +11,39 @@
       "lastUpdate": "2026-01-05T00:12:43+07:00"
     },
     "4": {
-      "pendingViews": 2,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-08T22:26:37.728Z",
-      "lastUpdate": "2026-01-06T00:17:54+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "5": {
-      "pendingViews": 1,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-08T22:26:06.902Z",
-      "lastUpdate": "2026-01-06T00:17:54+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "6": {
-      "pendingViews": 1,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-08T22:26:00.730Z",
-      "lastUpdate": "2026-01-06T00:17:54+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "7": {
-      "pendingViews": 1,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-08T22:25:41.722Z",
-      "lastUpdate": "2026-01-06T00:17:54+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "8": {
-      "pendingViews": 2,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-09T15:17:27.043Z",
-      "lastUpdate": "2026-01-06T00:17:54+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "9": {
-      "pendingViews": 10,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-09T15:18:02.582Z",
-      "lastUpdate": "2026-01-09T00:21:53+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "10": {
-      "pendingViews": 12,
+      "pendingViews": 0,
       "lastIncrement": "2026-01-09T15:49:32.148Z",
-      "lastUpdate": "2026-01-09T00:21:53+07:00"
+      "lastUpdate": "2026-01-10T00:18:25+07:00"
     },
     "2.1": {
       "pendingViews": 0,
@@ -56,5 +56,5 @@
       "lastUpdate": "2026-01-05T00:12:43+07:00"
     }
   },
-  "lastUpdated": "2026-01-09T00:21:53+07:00"
+  "lastUpdated": "2026-01-10T00:18:25+07:00"
 }
