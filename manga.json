@@ -16,7 +16,7 @@
       "Shounen"
     ],
     "status": "ONGOING",
-    "views": 2743,
+    "views": 2942,
     "links": {
       "mangadex": "https://mangadex.org/title/748d2aab-cea8-4ffb-89b3-e716872cb027/negatte-mo-nai-tsuihou-go-kara-no-slow-life-intai-shita-hazu-ga-nariyuki-de-bishoujo-gal-no-shishou",
       "raw": "https://comic-walker.com/detail/KC_006563_S"
@@ -36,7 +36,7 @@
       "totalPages": 34,
       "pages": 34,
       "locked": false,
-      "views": 203
+      "views": 215
     },
     "3": {
       "title": "Chapter 3",
@@ -46,7 +46,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 92
+      "views": 97
     },
     "4": {
       "title": "Chapter 4",
@@ -56,7 +56,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 90
+      "views": 96
     },
     "5": {
       "title": "Chapter 5",
@@ -66,7 +66,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 95
+      "views": 103
     },
     "6": {
       "title": "Chapter 6",
@@ -76,7 +76,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 116
+      "views": 126
     },
     "7": {
       "title": "Chapter 7",
@@ -86,7 +86,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 163
+      "views": 173
     },
     "8": {
       "title": "Chapter 8",
@@ -96,7 +96,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 396
+      "views": 409
     },
     "9": {
       "title": "Chapter 9",
@@ -106,7 +106,7 @@
       "totalPages": 30,
       "pages": 30,
       "locked": false,
-      "views": 1187
+      "views": 1207
     },
     "10": {
       "title": "Chapter 10",
@@ -116,7 +116,7 @@
       "totalPages": 28,
       "pages": 28,
       "locked": false,
-      "views": 799
+      "views": 839
     },
     "11": {
       "title": "Chapter 11",
@@ -126,7 +126,7 @@
       "totalPages": 31,
       "pages": 31,
       "locked": false,
-      "views": 85
+      "views": 256
     },
     "2.1": {
       "title": "Chapter 2.1",
@@ -136,7 +136,7 @@
       "totalPages": 15,
       "pages": 15,
       "locked": false,
-      "views": 103
+      "views": 109
     },
     "2.2": {
       "title": "Chapter 2.2",
@@ -146,9 +146,9 @@
       "totalPages": 16,
       "pages": 16,
       "locked": false,
-      "views": 84
+      "views": 92
     }
   },
-  "lastUpdated": "2026-01-28T00:22:53+07:00",
+  "lastUpdated": "2026-01-29T00:27:11+07:00",
   "lastChapterUpdate": "2026-01-27T20:48:58+07:00"
 }
