@@ -24,9 +24,7 @@
     "repoUrl": "https://raw.githubusercontent.com/nurananto/NegattemoNai/main/",
     "imagePrefix": "Image",
     "imageFormat": "webp",
-    "lockedChapters": [
-      "12"
-    ],
+    "lockedChapters": [],
     "type": "manga"
   },
   "chapters": {
@@ -137,7 +135,7 @@
       "uploadDate": "2026-02-26T22:30:30+07:00",
       "totalPages": 30,
       "pages": 30,
-      "locked": true,
+      "locked": false,
       "views": 143
     },
     "2.1": {
@@ -161,6 +159,6 @@
       "views": 134
     }
   },
-  "lastUpdated": "2026-02-28T19:00:31.442Z",
+  "lastUpdated": "2026-03-02T19:42:57+07:00",
   "lastChapterUpdate": "2026-02-26T22:30:30+07:00"
 }
