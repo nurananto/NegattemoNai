@@ -13,9 +13,7 @@
 | Author | Sugar Spoon |
 | Artist | Yamigo |
 | Tipe | Manga (Hitam Putih) |
-| Status | Ongoing |
 | Genre | Adventurer · Comedy · Drama · Fantasy · Romance · Gyaru · Shounen |
-| Chapter | 13 chapter |
 
 ## Link
 
